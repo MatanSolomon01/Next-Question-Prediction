@@ -1,0 +1,66 @@
+# Description: This file contains all the literals used in the project.
+
+# General
+TEST_EACH = "test_each"
+FILTERS = "filters"
+SAVE_MODEL = "save_model"
+WANDB_TRACK = "wandb_track"
+LABEL_KEYS = "label_keys"
+
+# Data handler
+LOAD_SAMPLES = "load_data"
+SAVE_SAMPLES = "save_data"
+AGENTS_TYPE = "agents_type"
+HUMANS = "humans"
+CHATBOTS = "chatbots"
+DEMO_STRATEGY = "demo_strategy"
+AGENTS_WANDB_TRACK = "agents_wandb_track"
+HISTORY = "history"
+NEXT_QUESTION = "next_question"
+NQ_IS_MATCH = "nq_is_match"
+USERCONF = "userconf"
+NQ_REAL_CONF = "nq_real_conf"
+META_DATA = "meta_data"
+LENGTHS = "lengths"
+HISTORIES = "histories"
+NEXT_QUESTIONS = "next_questions"
+NQ_REAL_CONFS = "nq_real_confs"
+NQ_IS_MATCHES = "nq_is_matches"
+META_DATAS = "meta_datas"
+RANDOM = "random"
+MATCHERS = "matchers"
+QUESTIONS = "questions"
+SPLIT_BY = "split_by"
+BY_QUESTION = "by_question"
+LESS = "less"
+SAMPLE_SELECTOR = "sample_selector"
+SAMPLE_SELECTOR_ARGS = "sample_selector_args"
+SAMPLES_AMOUNT = "samples_amount"
+EXISTING_SAMPLES = "existing_samples"
+AGENTS_SAMPLES = "agents_samples"
+CREATE_MISSING = "create_missing"
+
+class SS:
+    RANDOM = "random"
+    RANDOM_EXISTING = "random_existing"
+    WHOLE_RANDOM = "whole_random"
+    STRATEGY = "strategy"
+
+
+# Model
+HP_HIDDEN_DIM = "hp_hidden_dim"
+PP_HIDDEN_DIM = "pp_hidden_dim"
+BIDIRECTIONAL = "bidirectional"
+INTERACTION_PREDICTOR = "interaction_predictor"
+CONCATENATION_PREDICTOR = "concatenation_predictor"
+REGRESSION_HEAD_PREDICTOR = "regression_head_predictor"
+PP_MODEL = "pp_model"
+BINARY = "binary"
+REGRESSION = "regression"
+CLASSIFICATION_WEIGHT = "classification_weight"
+
+# Training
+TRAIN_PORTION = "train_portion"
+EPOCHS = "epochs"
+BATCH_SIZE = "batch_size"
+LR = "lr"
